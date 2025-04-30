@@ -6,10 +6,10 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Overlock", sans-serif;
     line-height: 1.6;
-    background: #f9f9f9;
-    color: #333;
+    background: #005028;
+    color: #450164;
 }
 
 /* Navbar */
@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -27,7 +27,17 @@ body {
 }
 
 .navbar .logo h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    display: block;
 }
 
 .navbar .nav-links {
@@ -41,13 +51,13 @@ body {
 
 .navbar .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #450164;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .navbar .nav-links a:hover {
-    color: #007bff;
+    color: #450164;
 }
 
 /* Hero Section */
@@ -107,7 +117,7 @@ body {
 }
 
 .project-item {
-    background: #fff;
+    background: #ffffff;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
